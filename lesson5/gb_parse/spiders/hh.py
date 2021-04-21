@@ -1,7 +1,7 @@
 import scrapy
 
-from data_mining.gb_parse.loaders import HHLoader, AuthorLoader
-from data_mining.gb_parse.spiders.xpaths import HH_PAGE_XPATH, HH_VACANCY_XPATH, HH_COMPANY_XPATH
+from lesson5.gb_parse.loaders import HHLoader, AuthorLoader
+from lesson5.gb_parse.spiders.xpaths import HH_PAGE_XPATH, HH_VACANCY_XPATH, HH_COMPANY_XPATH
 
 class HhSpider(scrapy.Spider):
     name = "hh"
